@@ -5,8 +5,7 @@ Username Dicoding: M Mahfudl Awaludin
 
 | | Deskripsi |
 | ----------- | ----------- |
-| Dataset | [Happiness Classification Dataset](https://www.kaggle.com/datasets/priyanshusethi/happiness-classification-dataset) <br>
-Dataset ini berisi informasi mengenai atribut individu seperti usia, pendidikan, pekerjaan, negara, dan pendapatan, serta tingkat kebahagiaan mereka yang diklasifikasikan dalam beberapa kategori (misalnya, "sedih", "bahagia", "normal", dll.). Dataset ini memiliki 10.000 entri dengan fitur numerik dan kategorikal.|
+| Dataset | [Happiness Classification Dataset](https://www.kaggle.com/datasets/priyanshusethi/happiness-classification-dataset) Dataset ini berisi informasi mengenai atribut individu seperti usia, pendidikan, pekerjaan, negara, dan pendapatan, serta tingkat kebahagiaan mereka yang diklasifikasikan dalam beberapa kategori (misalnya, "sedih", "bahagia", "normal", dll.). Dataset ini memiliki 10.000 entri dengan fitur numerik dan kategorikal.|
 | Masalah | Masalah yang diangkat adalah mengklasifikasikan tingkat kebahagiaan individu berdasarkan beberapa atribut yang ada di dalam dataset. Hal ini mencakup klasifikasi tingkat kebahagiaan menjadi beberapa kelas (misalnya "Sedih", "Bahagia", "Normal"), yang dapat digunakan untuk berbagai aplikasi seperti rekomendasi intervensi atau prediksi kondisi psikologis seseorang. |
 | Solusi machine learning | Solusi yang akan dibangun adalah model klasifikasi menggunakan machine learning yang mampu memprediksi tingkat kebahagiaan individu berdasarkan fitur-fitur seperti usia, pekerjaan, pendidikan, dan negara. Model ini diharapkan dapat memberikan prediksi yang cukup akurat berdasarkan data yang telah dilatih. Model akan di-deploy menggunakan TensorFlow Serving untuk dapat melakukan inferensi secara real-time melalui REST API. |
 | Metode pengolahan | - Pembersihan Data (Data Cleaning): Menghapus data yang hilang dan menangani outlier serta duplikasi.
